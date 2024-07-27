@@ -1,0 +1,436 @@
+@import url(reset.css);
+@import url(media.css);
+
+:root {
+  --primary: hsl(243, 87%, 12%);
+  --primary-db: hsl(238, 22%, 44%);
+  --primary-bb: hsl(224, 93%, 58%);
+  --primary-mc: hsl(170, 45%, 43%);
+  --primary-lgb: hsl(240, 75%, 98%);
+  --primary-lg: hsl(0, 0%, 75%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-lgb);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  color: var(--primary);
+}
+
+.section {
+  padding: 40px 70px 40px 40px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 100px 0;
+  background-color: var(--primary-lgb);
+  /* justify-content: space-around; */
+}
+
+.section1 h1 {
+  width: 80%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding: 0 0 20px 0;
+}
+
+.section1 p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin: 0 0 20px 0;
+  /* line-height: 50px; */
+}
+
+.section1 input {
+  width: 35%;
+  padding: 8px;
+  /* padding: 29px 0 0 40px; */
+}
+
+.section1 button {
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  color: var(--primary-lgb);
+  background-color: var(--primary-bb);
+  margin: 0 0 0 10px;
+}
+
+
+.section2 {
+  padding: 40px 70px 40px 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-lgb);
+}
+
+
+.section3 {
+  padding: 20px;
+
+}
+
+
+.section3 h1 {
+  width: 200%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section3 p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 10px 0;
+}
+
+.section3 span {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 10px 0;
+}
+
+.section3 a {
+  color: var(--primary-mc);
+}
+
+.access{
+  margin-top: 1rem;
+}
+
+.access1{
+  background-color: green;
+  height: 1px;
+  width: 8rem;
+}
+
+.section4 {
+  width: 40%;
+  padding: 1rem;
+  background: white;
+  box-shadow: 8px;
+  margin-top: 2rem;
+}
+
+.section4 img {
+  border-radius: 50%;
+}
+
+.section5 {
+  display: flex;
+  padding-top: 20px;
+}
+
+.section6 h4 {
+  display: flex;
+  font-size: 15px;
+}
+
+.section6 p {
+  font-size: 10px;
+}
+
+.section7 {
+  background-color: var(--primary-db);
+  padding: 45px;
+  font-weight: bold;
+  display: flex;
+}
+
+.section7 h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+
+}
+
+
+.section7 p {
+  color: var(--primary-lg);
+  width: 45%;
+}
+
+
+.section7 button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  color: var(--primary-lgb);
+  background-color: var(--primary-bb);
+  margin: 0 0 0 0px;
+}
+
+
+.section7 input {
+  width: 200%;
+  padding: 8px;
+  margin: 0 0 5% 0;
+
+}
+
+.section8 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+/* .sec10{
+ 
+ display: flex;
+ 
+}
+
+.sec11 ul{
+ display: flex;
+ flex-direction: column;
+}
+
+.sec12 ul{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+
+.sec13 ul{
+ display: flex;
+ flex-direction: column;
+} */
+
+
+/* .sec14{
+ color: var(--primary);
+} */
+/* 
+ */
+
+
+.fourth-texts {
+  display: flex;
+  gap: 20rem;
+}
+
+.fourth {
+  padding: 5rem;
+  background-color: var(--primary);
+  color: white;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.contactphone {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+
+.contactemail {
+  display: flex;
+  gap: 1rem;
+  height: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+.fourth img {
+  margin-bottom: 1rem;
+}
+
+
+.fourth ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer{
+  background-color: var(--primary);
+  color: var(--primary-lg);
+}
+
+
+@media screen and (max-width: 460px) {
+  .fourth-texts {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .section7 {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ 
+  .section2 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+ 
+ 
+  .section7 input {
+    width: 70%;
+    padding: 8px;
+    margin: 0 0 5% 0;
+ 
+  }
+ 
+ 
+  .section3 h1 {
+    width: 70%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ nav{
+  gap: 1.9rem;
+ }
+ 
+ .nav-links{
+  gap: 1rem;
+ }
+ 
+ .section1 h1 {
+  width: 90%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0 0 20px 0;
+  text-align: center;
+ }
+ 
+ 
+ .section1 p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+  /* line-height: 50px; */
+ }
+ 
+ .section1 input {
+  width: 90%;
+  padding: 5px;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  /* padding: 29px 0 0 40px; */
+ }
+ 
+ .section1 button {
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  color: var(--primary-lgb);
+  background-color: var(--primary-bb);
+  margin: 0 0 0 0px;
+  width: 90%;
+ }
+
+ .section3 h1 {
+  width: 100%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.section4 {
+  width: 90%;
+  padding: 1rem;
+  background: white;
+  box-shadow: 8px;
+  margin-top: 2rem;
+}
+
+.section7 h2{
+  width: 100%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.section7 p{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+  /* line-height: 50px; */
+}
+
+
+.section8 button{
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  color: var(--primary-lgb);
+  background-color: var(--primary-bb);
+  margin: 0 0 0 0px;
+  width: 90%;
+}
+
+.section8 input{
+  width: 90%;
+  padding: 5px;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  /* padding: 29px 0 0 40px; */
+}
+
+
+.fourth ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+}
+
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.fourth-texts {
+  display: flex;
+  gap: 20rem;
+}
+
+} 
