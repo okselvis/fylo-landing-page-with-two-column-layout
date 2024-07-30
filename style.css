@@ -433,4 +433,8 @@ ul a {
   gap: 20rem;
 }
 
+
+.section4 img {
+  border-radius: 40%;
+}
 } 
